@@ -1,0 +1,19 @@
+name: Compile LaTeX documents
+
+on: [push]
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+        
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: |
+            digitech_summary.tex
+          working_directory: summaries/
+          latexmk_shell_escape: true
+          
