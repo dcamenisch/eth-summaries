@@ -1,0 +1,103 @@
+\documentclass[a4paper]{report}
+
+\usepackage{amsmath}
+\usepackage{tcolorbox} % for colorboxes
+\usepackage{minted} % for code highlighting
+\usepackage{xcolor} % for own colors
+
+\definecolor{dcGrayLight}{gray}{0.95}
+\definecolor{dcOrange}{RGB}{255, 128, 0}
+\definecolor{dcGreen}{RGB}{0, 162, 0}
+\definecolor{dcBlue}{RGB}{51, 153, 255}
+\definecolor{dcWhite}{RGB}{255, 255, 255}
+
+\colorlet{dcRed}{red!75!black}
+\colorlet{dcRedLight}{red!5!white}
+
+\setlength{\parindent}{0in} % remove indentation for paragraphs
+
+\title{Digital Design and Computer Architecture}
+\author{Danny Camenisch (dcamenisch)}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+% --------------------------
+%   Templates and Examples
+% --------------------------
+
+\chapter{Template}
+\section{tcolorbox}
+
+\begin{tcolorbox}[colback=dcWhite,colframe=dcOrange,title=\textbf{My Heading}]
+    This is a \textbf{tcolorbox}.
+\tcblower
+    Here, you see the lower part of the box.
+\end{tcolorbox}
+
+\section{minted}
+
+\begin{minted}[frame=lines, framesep=2mm, bgcolor=dcGrayLight, linenos]{java}
+    // Hello.java
+    import javax.swing.JApplet;
+    import java.awt.Graphics;
+    
+    public class Hello extends JApplet {
+        public void paintComponent(Graphics g) {
+            g.drawString("Hello, world!", 65, 95);
+        }    
+    }
+\end{minted}
+
+% minted can also import from file like this:
+% \inputminted{java}{main.java}
+
+
+% --------------------------
+%   Course Description
+% --------------------------
+
+\chapter{Course Information}
+\section{Description}
+
+The class provides a first introduction to the design of digital circuits and 
+computer architecture. It covers technical foundations of how a computing platform 
+is designed from the bottom up. It introduces various execution paradigms, hardware 
+description languages, and principles in digital design and computer architecture. 
+The focus is on fundamental techniques employed in the design of modern microprocessors 
+and their hardware/software interface.
+\bigskip
+
+\begin{tcolorbox}[colback=dcWhite,colframe=dcGreen,title=\textbf{Objectives}]
+    This class provides a first approach to Computer Architecture. The students learn the
+    design of digital circuits in order to:
+    \begin{itemize}
+        \item understand the basics
+        \item understand the principles of design
+        \item understand the precedents in computer architecture
+    \end{itemize}
+\tcblower
+    Based on such understanding, the students are expected to:
+    \begin{itemize}
+        \item learn how a modern computer works underneath, from the bottom up
+        \item evaluate tradeoffs of different designs and ideas
+        \item implement a principled design (a simple microprocessor) 
+        \item learn to systematically debug increasingly complex systems
+        \item hopefully be prepared to develop novel, out-of-the-box designs
+    \end{itemize}
+    
+\end{tcolorbox}
+\bigskip
+
+The focus is on basics, principles, precedents, and how to use them to 
+create/implement good designs.
+
+% --------------------------
+%   Chapter 1.
+% --------------------------
+
+\chapter{TITLE}
+
+\end{document}
