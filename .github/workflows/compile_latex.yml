@@ -14,6 +14,7 @@ jobs:
         with:
           root_file: |
             digitech_summary.tex
-          working_directory: summaries/
+          extra_system_packages: "py-pygments"
           latexmk_shell_escape: true
           
+
