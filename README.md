@@ -16,4 +16,4 @@ Subject | Summary | Cheatsheet
 Analysis I | |
 Parallel Programming | | ---
 Digital Design and Computer Architecture | [Repo](https://github.com/DannyCamenisch/digitech_summary) |
-Algorithmen und Wahrscheinlichkeiten | | ---
+Algorithmen und Wahrscheinlichkeiten | [Repo](https://github.com/DannyCamenisch/anw_summary) | ---
