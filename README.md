@@ -4,10 +4,10 @@
 
 Subject | Summary | Cheatsheet
 ------ | :------: | :------:
-Diskrete Mathematik | [PDF](/Summaries/DiskMat-Summary.pdf) | [PDF](/Cheatsheets/DiskMat-Cheatsheet.pdf)
-Linear Algebra | [PDF](/Summaries/LinAlg-Summary.pdf) | [PDF](/Cheatsheets/LinAlg-Cheatsheet.pdf)
-Einführung in die Programmierung | [PDF](/Summaries/EProg-Summary.pdf) | ---
-Algorithmen und Datenstrukturen | [PDF](/Summaries/AnD-Summary.pdf) | ---
+Diskrete Mathematik | [PDF](/Summaries/diskMat_summary_small.pdf) | [PDF](/Cheatsheets/diskMat_cheatsheet_small.pdf)
+Linear Algebra | [PDF](/Summaries/linAlg_summary_small.pdf) | [PDF](/Cheatsheets/linAlg_cheatsheet_small.pdf)
+Einführung in die Programmierung | [PDF](/Summaries/eprog_summary_small.pdf) | ---
+Algorithmen und Datenstrukturen | [PDF](/Summaries/and_summary_small.pdf) | ---
 
 ## 2. Semester
 
